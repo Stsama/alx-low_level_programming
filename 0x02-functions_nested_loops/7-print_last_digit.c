@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  *print_last_digit - give the last digit of a number
- * @i: the integer to be converted.
+ * @n: the integer to be converted.
  * Return: last value of the input number.
  */
 int print_last_digit(int n)
