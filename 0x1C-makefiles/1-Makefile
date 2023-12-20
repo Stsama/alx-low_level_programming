@@ -1,0 +1,5 @@
+CC = gcc
+EXEC = school
+SRC = *.c
+all: $(SRC)
+	$(cc) $(SRC) -o $(EXEC)
