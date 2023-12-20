@@ -4,7 +4,7 @@ OBJ = *.o
 NAME = school
 
 %.o: %.c
-	$(CC) -c $(SRC) -o $@
+	$(CC) -c $< -o $@
 
 all: $(SRC)
 	$(CC) $(SRC) -o $(NAME)
